@@ -40,6 +40,7 @@ export const eventType = defineType({
       name: 'venue',
       type: 'reference',
       to: [{type: 'venue'}],
+      readOnly: ({value, document}) => !value && document?.eventType === 'virtual',
       validation: (rule) =>
         rule.custom((value, context) => {
           if (value && context?.document?.eventType === 'virtual') {
