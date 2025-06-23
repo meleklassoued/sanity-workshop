@@ -19,6 +19,10 @@ export const eventType = defineType({
     defineField({
       name: 'eventType',
       type: 'string',
+      options: {
+        list: ['in-person', 'virtual'],
+        layout: 'radio',
+      },
     }),
     defineField({
       name: 'date',
@@ -27,6 +31,8 @@ export const eventType = defineType({
     defineField({
       name: 'doorsOpen',
       type: 'number',
+      description: 'Number of minutes before the start time for admission',
+      initialValue: 60,
     }),
     defineField({
       name: 'venue',
