@@ -39,6 +39,14 @@ export const eventType = defineType({
       name: 'venue',
       type: 'reference',
       to: [{type: 'venue'}],
+      validation: (rule) =>
+        rule.custom((value, context) => {
+          if (value && context?.document?.eventType === 'virtual') {
+            return 'Only in-person events can have a venue'
+          }
+
+          return true
+        }),
     }),
     defineField({
       name: 'headline',
