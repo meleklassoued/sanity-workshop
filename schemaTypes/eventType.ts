@@ -84,4 +84,11 @@ export const eventType = defineType({
       group: 'editorial',
     }),
   ],
+  preview: {
+    select: {
+      title: 'name',
+      subtitle: 'headline.name',
+      media: 'image',
+    },
+  },
 })
