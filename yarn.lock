@@ -2116,7 +2116,7 @@
   resolved "https://registry.yarnpkg.com/@sanity/generate-help-url/-/generate-help-url-3.0.0.tgz#60e9cba61b82103ea3761730a53cd9310b98892d"
   integrity sha512-wtMYcV5GIDIhVyF/jjmdwq1GdlK07dRL40XMns73VbrFI7FteRltxv48bhYVZPcLkRXb0SHjpDS/icj9/yzbVA==
 
-"@sanity/icons@^3.7.0":
+"@sanity/icons@^3.7.0", "@sanity/icons@^3.7.4":
   version "3.7.4"
   resolved "https://registry.yarnpkg.com/@sanity/icons/-/icons-3.7.4.tgz#e992bc250d99b1b50c756a5f4751641021a646c1"
   integrity sha512-O9MnckiDsphFwlRS8Q3kj3n+JYUZ0UzKRujnSikMZOKI0dayucRe4U2XvxikRhJnFhcEJXW2RkWJoBaCoup9Sw==
@@ -2326,7 +2326,7 @@
   dependencies:
     "@sanity/client" "^7.6.0"
 
-"@sanity/ui@^2.15.17", "@sanity/ui@^2.15.18":
+"@sanity/ui@^2.15.17", "@sanity/ui@^2.15.18", "@sanity/ui@^2.16.2":
   version "2.16.2"
   resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-2.16.2.tgz#3873f616ff927fbc6e4b2a830074c0e7e80612d3"
   integrity sha512-r4kiPsaW56l2kboCAY9GX3e4PrUaIe7SW/ICSrlnf5Gw9krLMIx8GNNvb0NsCg7mLSCDF1upeIEQRz01JniqYg==
@@ -2373,10 +2373,10 @@
     "@types/uuid" "^8.0.0"
     uuid "^8.0.0"
 
-"@sanity/vision@^3.93.0":
-  version "3.93.0"
-  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.93.0.tgz#ac8501d422e8c068c5699fd6b0446ee1c62174f4"
-  integrity sha512-V0OXq0HF00Mk3XM877cCTxKHPv6CnK7Ogeq5sTvUz+gp5XjXV3nMfYcX+0iCs+eR8yOoCKQWYD5JKo5hIAdKwg==
+"@sanity/vision@^3.95.0":
+  version "3.95.0"
+  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.95.0.tgz#de5dec3b991955eb9ebf46c63b7217524f0e872b"
+  integrity sha512-QXGiMLwVufT/lETb5zGQc8Jy6PXiX1fB2VgJUcNKhVBUmt/yNvSIRzNhSv3nIQLPY5TQiUcKWM2+28RRoK66FA==
   dependencies:
     "@codemirror/autocomplete" "^6.18.6"
     "@codemirror/commands" "^6.8.1"
@@ -2390,8 +2390,8 @@
     "@rexxars/react-json-inspector" "^9.0.1"
     "@rexxars/react-split-pane" "^1.0.0"
     "@sanity/color" "^3.0.6"
-    "@sanity/icons" "^3.7.0"
-    "@sanity/ui" "^2.15.18"
+    "@sanity/icons" "^3.7.4"
+    "@sanity/ui" "^2.16.2"
     "@sanity/uuid" "^3.0.2"
     "@uiw/react-codemirror" "^4.23.8"
     is-hotkey-esm "^1.0.0"
@@ -2402,7 +2402,7 @@
     react-compiler-runtime "19.1.0-rc.2"
     react-fast-compare "^3.2.2"
     rxjs "^7.8.0"
-    use-effect-event "^2.0.1"
+    use-effect-event "^2.0.2"
 
 "@sanity/visual-editing-types@^1.1.0":
   version "1.1.0"
@@ -8365,7 +8365,7 @@ use-effect-event@^1.0.2:
   resolved "https://registry.yarnpkg.com/use-effect-event/-/use-effect-event-1.0.2.tgz#426bde4a166e762592005f194550e36639d39c7c"
   integrity sha512-9c8AAmtQja4LwJXI0EQPhQCip6dmrcSe0FMcTUZBeGh/XTCOLgw3Qbt0JdUT8Rcrm/ZH+Web7MIcMdqgQKdXJg==
 
-use-effect-event@^2.0.1:
+use-effect-event@^2.0.1, use-effect-event@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/use-effect-event/-/use-effect-event-2.0.2.tgz#75d983b5960cf2b8e967edfa266697db42ea55c6"
   integrity sha512-IGikKu2QMAjtBUc3basvXjYvAXvGAMTVmcz9S2cuuRDEGH142Ez4ctiOzhsw3HGNZoFSB2a+0c4OHpT1OTw3Og==
