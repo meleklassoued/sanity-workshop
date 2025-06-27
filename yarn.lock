@@ -2116,7 +2116,7 @@
   resolved "https://registry.yarnpkg.com/@sanity/generate-help-url/-/generate-help-url-3.0.0.tgz#60e9cba61b82103ea3761730a53cd9310b98892d"
   integrity sha512-wtMYcV5GIDIhVyF/jjmdwq1GdlK07dRL40XMns73VbrFI7FteRltxv48bhYVZPcLkRXb0SHjpDS/icj9/yzbVA==
 
-"@sanity/icons@^3.7.0", "@sanity/icons@^3.7.4":
+"@sanity/icons@^3.5.3", "@sanity/icons@^3.7.0", "@sanity/icons@^3.7.4":
   version "3.7.4"
   resolved "https://registry.yarnpkg.com/@sanity/icons/-/icons-3.7.4.tgz#e992bc250d99b1b50c756a5f4751641021a646c1"
   integrity sha512-O9MnckiDsphFwlRS8Q3kj3n+JYUZ0UzKRujnSikMZOKI0dayucRe4U2XvxikRhJnFhcEJXW2RkWJoBaCoup9Sw==
@@ -2161,6 +2161,11 @@
     split2 "^4.2.0"
     tar-fs "^2.1.2"
     tinyglobby "^0.2.9"
+
+"@sanity/incompatible-plugin@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@sanity/incompatible-plugin/-/incompatible-plugin-1.0.5.tgz#cdf50c88a0938906a15ac2eb6cc21cafea898b76"
+  integrity sha512-9JGAacbElUPy9Chghd+sllIiM3jAcraZdD65bWYWUVKkghOsf1L/+jFLz1rcAuvrA9o2s7Y+T75BNcXuLwRcvw==
 
 "@sanity/insert-menu@^1.1.12":
   version "1.1.12"
@@ -2350,7 +2355,7 @@
     "@sanity/client" "^7.6.0"
     "@sanity/media-library-types" "^1.0.0"
 
-"@sanity/ui@^2.15.17", "@sanity/ui@^2.16.2":
+"@sanity/ui@^2.10.11", "@sanity/ui@^2.15.17", "@sanity/ui@^2.15.2", "@sanity/ui@^2.16.2":
   version "2.16.2"
   resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-2.16.2.tgz#3873f616ff927fbc6e4b2a830074c0e7e80612d3"
   integrity sha512-r4kiPsaW56l2kboCAY9GX3e4PrUaIe7SW/ICSrlnf5Gw9krLMIx8GNNvb0NsCg7mLSCDF1upeIEQRz01JniqYg==
@@ -2376,7 +2381,7 @@
     moment "^2.30.1"
     rxjs "^7.8.1"
 
-"@sanity/util@3.95.0":
+"@sanity/util@3.95.0", "@sanity/util@^3.78.1":
   version "3.95.0"
   resolved "https://registry.yarnpkg.com/@sanity/util/-/util-3.95.0.tgz#71be58f5606b728818a570830ad45a064a474c84"
   integrity sha512-hYcpIeqlqVAsd2ehEyC/XiqoxlCr4Vk7s0Gwwehx2Xrtgevp7aYI/BFk1ssCs434kWrHQ+NK0qcjHRjbeId4vA==
@@ -3896,6 +3901,11 @@ direction@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/direction/-/direction-1.0.4.tgz#2b86fb686967e987088caf8b89059370d4837442"
   integrity sha512-GYqKi1aH7PJXxdhTeZBFrg8vUBeKXi+cNprXsC1kpJcbcVnV9wBsrOu1cQEdG0WeQwlfHiy3XvnKfIrJ2R0NzQ==
+
+dlv@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/dlv/-/dlv-1.1.3.tgz#5c198a8a11453596e751494d49874bc7732f2e79"
+  integrity sha512-+HlytyjlPKnIG8XuRG8WvmBP8xs8P71y+SKKS6ZXWoEgLuePxtDoUEiH7WkdePWrQ5JBpE6aoVqfZfJUQkjXwA==
 
 doc-path@4.1.1:
   version "4.1.1"
@@ -7277,6 +7287,31 @@ safe-regex-test@^1.0.3, safe-regex-test@^1.1.0:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
+
+sanity-plugin-documents-pane@^2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/sanity-plugin-documents-pane/-/sanity-plugin-documents-pane-2.4.0.tgz#e27eeb662ace395c6ba747619fec41aae19716f0"
+  integrity sha512-5GARaQ+3Ic54Qb0pCvU5csUabRuDBlh0EEJYApPBgjVb7SqFjC/q6DeBSpMdHTvpfXSz08h0+wHXqAsqdKkPFg==
+  dependencies:
+    "@sanity/icons" "^3.7.0"
+    "@sanity/incompatible-plugin" "^1.0.5"
+    "@sanity/ui" "^2.15.2"
+    "@sanity/util" "^3.78.1"
+    "@sanity/uuid" "^3.0.2"
+    dlv "^1.1.3"
+    react-fast-compare "^3.2.2"
+    rxjs "^7.8.2"
+    sanity-plugin-utils "^1.6.7"
+
+sanity-plugin-utils@^1.6.7:
+  version "1.6.7"
+  resolved "https://registry.yarnpkg.com/sanity-plugin-utils/-/sanity-plugin-utils-1.6.7.tgz#da621e25d3b73362f83ccb03bf1a7bfada3a9a11"
+  integrity sha512-+ji29cv9Czk3w4KfQI/VDoljFPAV1A0czyTmoAvnEkD2l53+fxY+4S/HElLLlZDpy1XucZjOldD1tGVK5AQnig==
+  dependencies:
+    "@sanity/icons" "^3.5.3"
+    "@sanity/incompatible-plugin" "^1.0.5"
+    "@sanity/ui" "^2.10.11"
+    react-fast-compare "^3.2.2"
 
 sanity@^3.95.0:
   version "3.95.0"
