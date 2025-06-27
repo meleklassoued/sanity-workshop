@@ -1,4 +1,5 @@
 import {defineConfig} from 'sanity'
+import {defaultDocumentNode} from './structure/defaultDocumentNode'
 import {structureTool} from 'sanity/structure'
 import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemaTypes'
@@ -14,6 +15,7 @@ export default defineConfig({
   plugins: [
     structureTool({
       structure,
+      defaultDocumentNode,
     }),
     visionTool(),
   ],
